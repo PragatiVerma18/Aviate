@@ -6,13 +6,13 @@
 
 ### Candidate Endpoints
 
-| Method | Endpoint          | Description            |
-| ------ | ----------------- | ---------------------- |
-| GET    | /candidates/      | List all candidates    |
-| POST   | /candidates/      | Create a new candidate |
-| GET    | /candidates/{id}/ | Retrieve a candidate   |
-| PUT    | /candidates/{id}/ | Update a candidate     |
-| DELETE | /candidates/{id}/ | Delete a candidate     |
+| Method | Endpoint              | Description            |
+| ------ | --------------------- | ---------------------- |
+| GET    | /api/candidates/      | List all candidates    |
+| POST   | /api/candidates/      | Create a new candidate |
+| GET    | /api/candidates/{id}/ | Retrieve a candidate   |
+| PUT    | /api/candidates/{id}/ | Update a candidate     |
+| DELETE | /api/candidates/{id}/ | Delete a candidate     |
 
 ### Search Endpoint
 
@@ -101,3 +101,7 @@ Hence the sorting order would be:
 4. "Kumar Yadav"
 5. "Ramesh Yadav"
 6. "Ajay Singh"
+
+> View API Documentation and Run Postman Collection [here](https://documenter.getpostman.com/view/10608582/2sAYdmkTBH)
+
+[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://documenter.getpostman.com/view/10608582/2sAYdmkTBH)
